@@ -1,6 +1,6 @@
 # Currency Converter App
 
-Este proyecto es un conversor de monedas interactivo que permite convertir entre varias divisas utilizando una API de tasas de cambio en tiempo real. El programa se ejecuta en consola y permite ver un historial de conversiones realizadas durante la sesión actual.
+Este es un conversor de monedas que permite a los usuarios convertir entre diferentes divisas utilizando una API de tasas de cambio actualizadas. El programa es interactivo y se ejecuta en consola, además de proporcionar un historial de conversiones.
 
 ## Características
 
@@ -9,30 +9,30 @@ Este proyecto es un conversor de monedas interactivo que permite convertir entre
     - Peso argentino (ARS)
     - Real brasileño (BRL)
     - Peso colombiano (COP)
-- Obtención de tasas de cambio en tiempo real utilizando la API de [ExchangeRate-API](https://www.exchangerate-api.com).
+- Obtención de tasas de cambio en tiempo real desde la API [ExchangeRate-API](https://www.exchangerate-api.com).
 - Manejo de errores de conexión y validación de entradas del usuario.
 - Historial de conversiones con marcas de tiempo.
 
 ## Requisitos
 
-Para ejecutar este proyecto necesitas tener lo siguiente:
+Para ejecutar este proyecto, necesitas tener lo siguiente:
 
 - **Java 17** o superior
 - **Gson** (incluido en el archivo `pom.xml` si estás usando Maven)
-- **Clave API** de [ExchangeRate-API](https://www.exchangerate-api.com) para obtener tasas de cambio. La clave utilizada en este proyecto no es privada y se puede configurar en el código fuente.
+- Clave API de [ExchangeRate-API](https://www.exchangerate-api.com) para obtener tasas de cambio.
 
 ## Instalación
 
 1. Clona este repositorio en tu máquina local:
     ```bash
-    git clone https://github.com/juanjosetrujillocardozo/CurrencyConverter.git
+    git clone https://github.com/tu_usuario/CurrencyConverter.git
     ```
 
 2. Abre el proyecto en **IntelliJ IDEA** o tu IDE favorito.
 
 3. Asegúrate de que tienes configurado **Java 17** como versión del SDK.
 
-4. Configura tu clave API en el archivo `CurrencyConverterApp.java`:
+4. Añade tu clave API en el archivo `CurrencyConverterApp.java`:
     ```java
     String apiKey = "TU_API_KEY";  // Reemplaza con tu clave de la API
     ```
@@ -56,7 +56,7 @@ Al ejecutar el programa, se te presentará un menú con las opciones de conversi
 
 ### Ejemplo de uso:
 
-1. Elige una opción del menú (ejemplo: 5 para convertir de USD a COP).
+1. Elige una opción del menú (ejemplo: 1 para convertir de USD a ARS).
 2. Ingresa la cantidad a convertir.
 3. Recibe el resultado de la conversión en tiempo real.
 
@@ -64,15 +64,15 @@ Al ejecutar el programa, se te presentará un menú con las opciones de conversi
 
 ### Menú de Conversión
 
-![Menú de Conversión](images/ruta_a_la_imagen_1.png)
+![Menú de Conversión](ruta_a_la_imagen.png)
 
 ### Resultado de Conversión
 
-![Resultado de Conversión](images/ruta_a_la_imagen_2.png)
+![Resultado de Conversión](ruta_a_la_imagen.png)
 
 ### Historial de Conversiones
 
-![Historial de Conversiones](images/ruta_a_la_imagen_3.png)
+![Historial de Conversiones](ruta_a_la_imagen.png)
 
 ## Errores comunes
 
